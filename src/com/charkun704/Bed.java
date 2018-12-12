@@ -14,7 +14,7 @@ public class Bed {
     }
 
     public void makeBed(){
-        System.out.println("Bed.makeBed()/nMaking bed.");
+        System.out.println("Bed.makeBed()\nBed make.");
         this.isMade = true;
     }
 }

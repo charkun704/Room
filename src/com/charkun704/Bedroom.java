@@ -22,7 +22,10 @@ public class Bedroom {
         this.lamp = lamp;
     }
 
-    public Lamp getLamp(){ return this.lamp; }
+    public Lamp getLamp(){
+        System.out.println("Bedroom.getLamp()\nTurning lamp on.");
+        return this.lamp;
+    }
 
     public void makeBed(){
         System.out.println("Bedroom.makeBed()\nMaking bed.");
