@@ -10,7 +10,7 @@ public class Bedroom {
     private Bed bed;
     private Lamp lamp;
 
-    public Bedroom(String name, Wall wallOne, Wall wallTwo, Wall wallThree, Wall wallFour
+    public Bedroom(String name, Wall wallOne, Wall wallTwo, Wall wallThree, Wall wallFour,
                    Wall ceiling, Bed bed, Lamp lamp) {
         this.name = name;
         this.wallOne = wallOne;
@@ -23,9 +23,10 @@ public class Bedroom {
     }
 
     public Lamp getLamp(){ return this.lamp; }
+
     public void makeBed(){
         System.out.println("Bedroom.makeBed()\nMaking bed.");
-        bed.make();
+        bed.makeBed();
     }
 
 }
